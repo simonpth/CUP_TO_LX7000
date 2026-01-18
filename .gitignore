@@ -1,0 +1,8 @@
+build
+.vscode
+.qtcreator
+.cache
+.qmlls.ini
+
+package.json
+package-lock.json

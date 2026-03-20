@@ -158,6 +158,7 @@ Item {
             enabled: false
         }
 
+        /*
         MenuSeparator {}
 
         MenuItem {
@@ -168,6 +169,7 @@ Item {
                 editDialog.open()
             }
         }
+        */
 
         MenuSeparator {}
 

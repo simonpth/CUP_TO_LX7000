@@ -45,7 +45,7 @@ QString AirportHelper::sanitizeString(const QString &input)
 {
     QString normalized = input.normalized(QString::NormalizationForm_D);
     QString sanitized;
-    sanitized.reserve(input.length());
+    sanitized.reserve(normalized.length());
 
     for (int i = 0; i < normalized.length(); i++) {
         const QChar &c = normalized[i];
